@@ -1,13 +1,13 @@
 class Hash
   def keys_of(arguments)
-      nu_arr = []
-      arguments.each do |animals|
-      self.each do |place, animal|
-        if animal == animals
-          nu_arr << place
-        end
-      end
+    arr = []
+arguments.each do |arg|
+  self.each do |key, val|
+    if arg == val
+      arr.push(key)
     end
-  return  nu_arr
   end
+end
+arr
+end
 end

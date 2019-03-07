@@ -4,10 +4,8 @@ class Hash
      arguments[:animals].each do |animal, country|
        if country == argument
          listOfKeys << animal
-
+       end
      end
    end
    listOfKeys
  end
-
-      

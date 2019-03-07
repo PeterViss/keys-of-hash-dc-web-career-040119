@@ -8,6 +8,6 @@ class Hash
         end
       end
     end
-    nu_arr
+  return  nu_arr
   end
 end

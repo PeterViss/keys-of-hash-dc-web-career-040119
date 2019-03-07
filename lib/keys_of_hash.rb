@@ -6,6 +6,6 @@ class Hash
          array << animal
        end
      end
-
    return array
+ end
  end

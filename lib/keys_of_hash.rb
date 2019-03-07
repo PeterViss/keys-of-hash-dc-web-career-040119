@@ -5,7 +5,6 @@ class Hash
   nu_arr << animals["Madagascar"]
   # code goes here
   end
-end
-end
+
 return nu_arr
 end

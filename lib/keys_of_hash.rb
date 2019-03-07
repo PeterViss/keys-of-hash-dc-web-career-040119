@@ -1,9 +1,9 @@
 class Hash
   def keys_of(arguments)
-    listOfKeys = []
+    array = []
      arguments[:animals].each do |animal, country|
        if country == argument
-         listOfKeys << animal
+         array << animal
        end
      end
    end

@@ -6,5 +6,5 @@ class Hash
   # code goes here
   end
 end
-end 
+end
 end 

@@ -6,5 +6,6 @@ class Hash
   # code goes here
   end
 end
+end
 return nu_arr
 end

@@ -3,7 +3,7 @@ class Hash
     array = []
      arguments[:animals].each do |animal, country|
        if country == argument
-         array << animal
+         array << animal.to_i
        end
      end
    return array

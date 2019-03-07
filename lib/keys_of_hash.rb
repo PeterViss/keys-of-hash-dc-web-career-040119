@@ -7,5 +7,5 @@ class Hash
        end
      end
    end
-   listOfKeys
+   return array
  end

@@ -1,11 +1,14 @@
 class Hash
   def keys_of(arguments)
-    array = []
-     arguments[:animals].each do |animal, country|
-       if country == argument
-         array << animal.to_s
-       end
+    listOfKeys=[]
+
+ argument.each do |arg|
+    map do |key,value|
+     if arg == value
+   listOfKeys<< key
+      end
      end
-   return array
- end
- end
+    end
+listOfKeys
+  end	  end
+end 	end

@@ -5,9 +5,9 @@ class Hash
       animals.each do |place, animal|
         if animal == animals
           nu_arr << place
-        end 
+        end
       end
     end
     nu_arr
-  end 
+  end
 end

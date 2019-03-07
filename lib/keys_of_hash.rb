@@ -1,5 +1,5 @@
 class Hash
   def keys_of(arguments)
-    # code goes here
+  nu_arr = []  # code goes here
   end
 end

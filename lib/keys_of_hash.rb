@@ -6,5 +6,5 @@ class Hash
   # code goes here
   end
 end
-return nu_arr
+
 end

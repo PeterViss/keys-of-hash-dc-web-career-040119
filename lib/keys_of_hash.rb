@@ -3,12 +3,11 @@ class Hash
     array = []
      arguments.each do |animals|
        self.each do |animal, country|
-       if country == animals
-         array << animal
-       end
-     end
-
- end
- return array
- end
-end
+         if country == animals
+           array << animal
+          end
+        end
+      end
+      return array
+    end
+  end

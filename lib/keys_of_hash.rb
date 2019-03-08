@@ -3,7 +3,7 @@ class Hash
     array = []
      arguments.each do |animals|
        self.each do |animal, country|
-       if country == argument
+       if country == animals
          array << animal
        end
      end

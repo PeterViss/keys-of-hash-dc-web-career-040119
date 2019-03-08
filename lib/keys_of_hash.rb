@@ -4,7 +4,7 @@ class Hash
      arguments.each do |
                |animal, country|
        if country == argument
-         array << animal.splat
+         array << animal.to_i
        end
      end
    return array

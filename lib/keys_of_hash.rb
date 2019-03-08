@@ -1,9 +1,10 @@
 class Hash
   def keys_of(arguments)
     array = []
-     arguments[:animals].each do |animal, country|
+     arguments.each do |
+               |animal, country|
        if country == argument
-         array << animal
+         array << animal.splat
        end
      end
    return array
